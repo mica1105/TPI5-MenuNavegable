@@ -1,14 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/holo_purple"
     tools:context=".Enviado">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Mensaje Enviado" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:text="Mensaje Enviado"
+        android:textAlignment="center"
+
+        android:textSize="40dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="61dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="90dp"
+        android:src="@android:drawable/checkbox_on_background" />
 
 </FrameLayout>
