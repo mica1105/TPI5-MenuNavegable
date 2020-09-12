@@ -22,13 +22,12 @@
         android:id="@+id/btNavegacion"
         android:layout_width="match_parent"
         android:layout_height="56dp"
-        app:itemBackground="@color/colorPrimary"
-        app:itemIconTint="@color/colorAccent"
-        app:itemTextColor="@color/colorPrimaryDark"
+        app:itemBackground="@color/cardview_dark_background"
+        app:itemIconTint="@color/cardview_light_background"
+        app:itemTextColor="@color/cardview_light_background"
         app:labelVisibilityMode="labeled"
         app:layout_constraintBottom_toBottomOf="@id/nav_host_fragment"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:menu="@menu/opciones"
-        ></com.google.android.material.bottomnavigation.BottomNavigationView>
+        app:menu="@menu/opciones"></com.google.android.material.bottomnavigation.BottomNavigationView>
 </androidx.constraintlayout.widget.ConstraintLayout>
